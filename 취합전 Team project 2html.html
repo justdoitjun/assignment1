@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 제주시로 오세요 </title>
+    <style>
+        .topbar{
+
+        }
+        #bar{
+            padding : 0px 0px 0px 0px;
+        }
+        li{
+            display : inline-block; 
+        }
+        #bar > li{
+            background : orange;
+            width : 140px;
+        }
+        #bar > li > ul {
+            float : left;
+            width : 140px;
+            position : relative;
+        }
+        #bar > li > ul > li {
+            display : none;
+            position : relative;
+            float : left;
+            width : 140px;
+            font-size : 14px;
+            background : skyblue;
+        }
+        #bar > li:hover > ul > li {
+            display: block;
+        }        
+
+    </style>
+</head>
+
+<body>
+	<div id="container">
+		<div class="header">
+			<div class="logo">
+				<h1 id="logo"><a><img src="https://www.jeju.go.kr/files/editor/eeffd663-d0a5-4b90-b3e2-05189da61ce7.jpg" style= "width:200px; height:100px;"" alt="제주시 로고"></a></h1>
+			</div>
+
+		<div class="topbar">			
+			<div id="bar">
+                <li><a href="#">제주시 소개</a>
+                    <ul>
+                        <li><a href="#">제주시장 인사말</a></li>
+                        <li><a href="#">제주시 명소</a></li>
+                        <li><a href="#">제주시 수상경력</a></li>
+                        <li><a href="#">국제관광명소</a></li>
+                    </ul>
+                </li>
+                    
+                <li><a href="#">숙소</a>
+                    <ul>
+                        <li><a href="#">호텔</a></li>
+                        <li><a href="#">에어비앤비</a></li>
+                        <li><a href="#">민박</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">렌트카</a>
+                    <ul>
+                        <li><a href="#">SK엔카</a></li>
+                        <li><a href="#">현대솔루션</a></li>
+                        <li><a href="#">삼성매직카</a></li>
+                    </ul>
+                </li>
+			</div>			
+		</div>
+    </div>
+</body>
+</html>
